@@ -15,7 +15,7 @@ body{
     margin-left: 0;
     margin-right: 0;
 }
-
+/* intestazione */
 #site_header{
     background-color: #ffffff ;  
     padding: 1rem;
@@ -32,7 +32,7 @@ body{
     padding-top: 2rem;
 }
 
-
+/* corpo del sito */
 #site_main{
     background-color: #ffffff;
     width: 70%;
@@ -43,7 +43,7 @@ body{
     padding-top: 1.2rem;
     
 }
-
+/* pulsanti principli */
 .add{
     font-size: 0.6rem;
     border-radius: 4px;
@@ -65,14 +65,18 @@ body{
     border: 1px solid #9a9da1;
     
 }
+/* divisore */
+hr{
+    border-top: 1px solid #f6f8f9;
+}
 
 
-
+/* sezioni */
 #new_class{
    padding-left: 40px;
    padding-top: 15px;
 }
-
+/* check */
 .complete{
     border-radius: 50%;
     background-color:white; 
@@ -81,6 +85,7 @@ body{
     padding: 0.2rem;
     font-size: 0.8rem;
 }
+
 .todo{
     border-radius: 50%;
     background-color:white; 
@@ -91,7 +96,7 @@ body{
  }   
 
 
-
+/* categorie task */
 .editorial{
     background-color: var(--editorial);
     border-radius: 10px;
@@ -124,6 +129,23 @@ body{
     font-size: 0.7rem; 
 }
 
+.website{
+    background-color: var(--website);
+    border-radius: 10px;
+    padding: 0.4rem;
+    color: #ffffff;  
+    font-size: 0.7rem; 
+}
+
+.sales{
+    background-color: var(--sales);
+    border-radius: 10px;
+    padding: 0.4rem;
+    color: #ffffff;  
+    font-size: 0.7rem; 
+}
+
+/* check task e categoria */
 div{
     padding-top: 15px;
     padding-bottom: 5px;
