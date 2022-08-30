@@ -10,8 +10,10 @@
 
 body{
     background-color: #f6f8f9 ;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #site_header{
@@ -45,9 +47,7 @@ body{
 .add{
     font-size: 0.6rem;
     border-radius: 4px;
-    
-    
-    
+     
 }
 
 #task{
@@ -63,8 +63,37 @@ body{
     padding: 0.4rem;
     color: #9a9da1 ;   
     border: 1px solid #9a9da1;
+    
 }
 
 #grey_rule{
      border: 1px solid #f6f8f9 ;
 }
+
+#new_class{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.complete{
+    border-radius: 50%;
+    background-color:white; 
+    color: #97d5c6;
+    border: 1px solid #97d5c6;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+
+}
+
+#editorial{
+    background-color: var(--editorial);
+    border-radius: 10px;
+    padding: 0.4rem;
+    color: #ffffff;  
+    font-size: 0.7rem; 
+}
+
+
+
+
+
