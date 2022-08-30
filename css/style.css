@@ -66,13 +66,11 @@ body{
     
 }
 
-#grey_rule{
-     border: 1px solid #f6f8f9 ;
-}
+
 
 #new_class{
-    margin-left: 3rem;
-    margin-top: 2rem;
+   padding-left: 40px;
+   padding-top: 15px;
 }
 
 .complete{
@@ -82,10 +80,19 @@ body{
     border: 1px solid #97d5c6;
     padding: 0.2rem;
     font-size: 0.8rem;
-
 }
+.todo{
+    border-radius: 50%;
+    background-color:white; 
+    color: #ee6c64;
+    border: 1px solid #ee6c64;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+ }   
 
-#editorial{
+
+
+.editorial{
     background-color: var(--editorial);
     border-radius: 10px;
     padding: 0.4rem;
@@ -93,7 +100,34 @@ body{
     font-size: 0.7rem; 
 }
 
+.goals{
+    background-color: var(--goals);
+    border-radius: 10px;
+    padding: 0.4rem;
+    color: #ffffff;  
+    font-size: 0.7rem; 
+}
 
+.recruting{
+    background-color: var(--recruting);
+    border-radius: 10px;
+    padding: 0.4rem;
+    color: #ffffff;  
+    font-size: 0.7rem; 
+}
+
+.mobile{
+    background-color: var(--mobile);
+    border-radius: 10px;
+    padding: 0.4rem;
+    color: #ffffff;  
+    font-size: 0.7rem; 
+}
+
+div{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
 
 
 
